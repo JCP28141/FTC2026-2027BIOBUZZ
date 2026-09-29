@@ -40,6 +40,6 @@ public class Manual implements ActiveFunction{
         driveBase.rightBackPower = this.rbPower;
     }
 @Override
-   public boolean isFinished(){ return false; }
+   public boolean isFinished(){ return true; }
 
 }
